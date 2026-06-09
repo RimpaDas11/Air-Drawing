@@ -104,13 +104,18 @@ Virtual Canvas Output
 # 📂 Project Structure
 
 ```text
+## 📂 Project Structure
+
+```text
 Air-Drawing/
 │
-├── main.py
-├── handTracker.py
-├── requirements.txt
-├── images/
-└── README.md
+├── README.md
+│
+└── Air_Drawing_Backend/
+    ├── main.py
+    ├── handTracker.py
+    ├── requirements.txt
+    └── images/
 ```
 
 ---
@@ -160,7 +165,7 @@ The detected finger movements are drawn on a virtual canvas and displayed live.
 
 ```bash
 git clone https://github.com/your-username/Air-Drawing.git
-cd Air-Drawing
+cd Air-Drawing-Backend
 ```
 
 ---
